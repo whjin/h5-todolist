@@ -1,0 +1,124 @@
+.container {
+  width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #89D2BA;
+  border: 3px solid #EDD29F;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "微软雅黑", monospace, sans-serif;
+  font-size: 40px;
+  color: #1F6866;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+h1 > sup {
+  vertical-align: super;
+}
+
+h3 {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.add {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-bottom: 16px;
+}
+
+.add_input {
+  width: 640px;
+  border: none;
+  border-bottom: 3px solid #EDD29F;
+  background-color: #89D2BA;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+.wait, .done {
+  border: 3px solid #EDD29F;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.wait {
+  margin: 26px 0 40px 0;
+}
+
+.done {
+  margin: 0 0 20px 0;
+
+}
+
+.add_item, .wait_item, .done_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 10px 5px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 5px;
+}
+
+.wait_item_text, .done_item_text {
+  width: 80%;
+  word-break: break-all;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.wait_item_text_input {
+  width: 90%;
+  background-color: inherit;
+  font-size: 18px;
+  border: 2px solid #EDD29F;
+  border-radius: 5px;
+  padding: 2px;
+  margin-right: 5px;
+  opacity: .5;
+}
+
+.wait_item_icons, .done_item_icons {
+  display: flex;
+}
+
+.add_icon,
+.wait_item_icons_modify,
+.wait_item_icons_trash,
+.wait_item_icons_done,
+.done_item_icons_trash,
+.done_item_icons_done {
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+i {
+  display: block;
+  font-size: 23px;
+  color: #206766;
+  cursor: pointer;
+}
+
+i:hover {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
